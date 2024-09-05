@@ -1,0 +1,197 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ahmed_apps.camerax_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:9:5-65
+15-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:10:5-71
+16-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:10:22-68
+17
+18    <queries>
+18-->[androidx.camera:camera-extensions:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\1f4fed6920a70d8a70328f27aa041d12\transformed\camera-extensions-1.3.2\AndroidManifest.xml:22:5-26:15
+19        <intent>
+19-->[androidx.camera:camera-extensions:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\1f4fed6920a70d8a70328f27aa041d12\transformed\camera-extensions-1.3.2\AndroidManifest.xml:23:9-25:18
+20            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+20-->[androidx.camera:camera-extensions:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\1f4fed6920a70d8a70328f27aa041d12\transformed\camera-extensions-1.3.2\AndroidManifest.xml:24:13-86
+20-->[androidx.camera:camera-extensions:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\1f4fed6920a70d8a70328f27aa041d12\transformed\camera-extensions-1.3.2\AndroidManifest.xml:24:21-83
+21        </intent>
+22    </queries>
+23
+24    <permission
+24-->[androidx.core:core:1.12.0] C:\Users\spycy\.gradle\caches\transforms-3\482c06e6155a5be8ae58e21f0fe97d34\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+25        android:name="com.ahmed_apps.camerax_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.12.0] C:\Users\spycy\.gradle\caches\transforms-3\482c06e6155a5be8ae58e21f0fe97d34\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.12.0] C:\Users\spycy\.gradle\caches\transforms-3\482c06e6155a5be8ae58e21f0fe97d34\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.ahmed_apps.camerax_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.12.0] C:\Users\spycy\.gradle\caches\transforms-3\482c06e6155a5be8ae58e21f0fe97d34\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.12.0] C:\Users\spycy\.gradle\caches\transforms-3\482c06e6155a5be8ae58e21f0fe97d34\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:13:5-35:19
+31        android:name="com.ahmed_apps.camerax_app.App"
+31-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:14:9-28
+32        android:allowBackup="true"
+32-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:15:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.12.0] C:\Users\spycy\.gradle\caches\transforms-3\482c06e6155a5be8ae58e21f0fe97d34\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:16:9-65
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:fullBackupContent="@xml/backup_rules"
+37-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:17:9-54
+38        android:icon="@mipmap/ic_launcher"
+38-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:18:9-43
+39        android:label="@string/app_name"
+39-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:19:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:20:9-54
+41        android:supportsRtl="true"
+41-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:21:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.CameraXApp" >
+43-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:22:9-48
+44        <activity
+44-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:24:9-34:20
+45            android:name="com.ahmed_apps.camerax_app.MainActivity"
+45-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:25:13-41
+46            android:exported="true"
+46-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:26:13-36
+47            android:label="@string/app_name"
+47-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:27:13-45
+48            android:theme="@style/Theme.CameraXApp" >
+48-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:28:13-52
+49            <intent-filter>
+49-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:29:13-33:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:30:17-69
+50-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:30:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:32:17-77
+52-->C:\Users\spycy\AndroidStudioProjects\FridgeScannerV2\app\src\main\AndroidManifest.xml:32:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <uses-library
+56-->[androidx.camera:camera-extensions:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\1f4fed6920a70d8a70328f27aa041d12\transformed\camera-extensions-1.3.2\AndroidManifest.xml:29:9-31:40
+57            android:name="androidx.camera.extensions.impl"
+57-->[androidx.camera:camera-extensions:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\1f4fed6920a70d8a70328f27aa041d12\transformed\camera-extensions-1.3.2\AndroidManifest.xml:30:13-59
+58            android:required="false" />
+58-->[androidx.camera:camera-extensions:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\1f4fed6920a70d8a70328f27aa041d12\transformed\camera-extensions-1.3.2\AndroidManifest.xml:31:13-37
+59
+60        <service
+60-->[androidx.camera:camera-camera2:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\8d2e63495dfe7b79791927af5a940736\transformed\camera-camera2-1.3.2\AndroidManifest.xml:24:9-33:19
+61            android:name="androidx.camera.core.impl.MetadataHolderService"
+61-->[androidx.camera:camera-camera2:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\8d2e63495dfe7b79791927af5a940736\transformed\camera-camera2-1.3.2\AndroidManifest.xml:25:13-75
+62            android:enabled="false"
+62-->[androidx.camera:camera-camera2:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\8d2e63495dfe7b79791927af5a940736\transformed\camera-camera2-1.3.2\AndroidManifest.xml:26:13-36
+63            android:exported="false" >
+63-->[androidx.camera:camera-camera2:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\8d2e63495dfe7b79791927af5a940736\transformed\camera-camera2-1.3.2\AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.camera:camera-camera2:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\8d2e63495dfe7b79791927af5a940736\transformed\camera-camera2-1.3.2\AndroidManifest.xml:30:13-32:89
+65                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+65-->[androidx.camera:camera-camera2:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\8d2e63495dfe7b79791927af5a940736\transformed\camera-camera2-1.3.2\AndroidManifest.xml:31:17-103
+66                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+66-->[androidx.camera:camera-camera2:1.3.2] C:\Users\spycy\.gradle\caches\transforms-3\8d2e63495dfe7b79791927af5a940736\transformed\camera-camera2-1.3.2\AndroidManifest.xml:32:17-86
+67        </service>
+68
+69        <activity
+69-->[androidx.compose.ui:ui-tooling-android:1.6.4] C:\Users\spycy\.gradle\caches\transforms-3\a7bf8a8dfe148868ca8864a73081c2c7\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+70            android:name="androidx.compose.ui.tooling.PreviewActivity"
+70-->[androidx.compose.ui:ui-tooling-android:1.6.4] C:\Users\spycy\.gradle\caches\transforms-3\a7bf8a8dfe148868ca8864a73081c2c7\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+71            android:exported="true" />
+71-->[androidx.compose.ui:ui-tooling-android:1.6.4] C:\Users\spycy\.gradle\caches\transforms-3\a7bf8a8dfe148868ca8864a73081c2c7\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\edfa7d0ea623f15b96f0ea05ef91198d\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\edfa7d0ea623f15b96f0ea05ef91198d\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+75            android:authorities="com.ahmed_apps.camerax_app.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\edfa7d0ea623f15b96f0ea05ef91198d\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\edfa7d0ea623f15b96f0ea05ef91198d\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\edfa7d0ea623f15b96f0ea05ef91198d\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\edfa7d0ea623f15b96f0ea05ef91198d\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\edfa7d0ea623f15b96f0ea05ef91198d\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\spycy\.gradle\caches\transforms-3\169b071461d6c02e91822068ee8dddda\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\spycy\.gradle\caches\transforms-3\169b071461d6c02e91822068ee8dddda\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\spycy\.gradle\caches\transforms-3\169b071461d6c02e91822068ee8dddda\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+85                android:value="androidx.startup" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+86        </provider>
+87
+88        <activity
+88-->[androidx.compose.ui:ui-test-manifest:1.6.4] C:\Users\spycy\.gradle\caches\transforms-3\261def3a16634e9ee32168da386c132b\transformed\ui-test-manifest-1.6.4\AndroidManifest.xml:23:9-25:39
+89            android:name="androidx.activity.ComponentActivity"
+89-->[androidx.compose.ui:ui-test-manifest:1.6.4] C:\Users\spycy\.gradle\caches\transforms-3\261def3a16634e9ee32168da386c132b\transformed\ui-test-manifest-1.6.4\AndroidManifest.xml:24:13-63
+90            android:exported="true" />
+90-->[androidx.compose.ui:ui-test-manifest:1.6.4] C:\Users\spycy\.gradle\caches\transforms-3\261def3a16634e9ee32168da386c132b\transformed\ui-test-manifest-1.6.4\AndroidManifest.xml:25:13-36
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\spycy\.gradle\caches\transforms-3\1d403526755cb397f3b009898930b28e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>
