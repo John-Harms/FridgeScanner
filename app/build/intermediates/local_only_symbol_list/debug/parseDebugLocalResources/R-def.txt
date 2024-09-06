@@ -1,5 +1,9 @@
 R_DEF: Internal format may change without notice
 local
+anim slide_in_left
+anim slide_in_right
+anim slide_out_left
+anim slide_out_right
 color black
 color purple_200
 color purple_500
@@ -15,10 +19,14 @@ drawable placeholder_image
 id camerabutton
 id imageView
 id main
-id textView
-id textView2
+id responseTextView
+id submitButton
+id textViewLeft
+id textViewRight
 layout activity_main
+layout activity_main_2
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string close_camera
@@ -26,6 +34,6 @@ string open_gallery
 string record_video
 string switch_camera_preview
 string take_photo
-style Theme.CameraXApp
+style Theme.fridgescanner
 xml backup_rules
 xml data_extraction_rules

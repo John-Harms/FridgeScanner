@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.ahmed_apps.camerax_app"
+    namespace = "com.johnharms.fridgescanner"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.ahmed_apps.camerax_app"
+        applicationId = "com.johnharms.fridgescanner"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -62,6 +62,7 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.appcompat)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

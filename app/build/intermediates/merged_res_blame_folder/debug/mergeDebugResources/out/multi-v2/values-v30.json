@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.ahmed_apps.camerax_app-mergeDebugResources-65:/values-v30/values-v30.xml",
+            "outputFile": "com.johnharms.fridgescanner.app-mergeDebugResources-66:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\9264ea56bf5eecb056c87b5e5bf3b9ce\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\99a66eadaa53a2abf54aef0af935199f\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

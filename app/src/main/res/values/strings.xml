@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CameraX App</string>
+    <string name="app_name">FridgeScanner</string>
     <string name="open_gallery">Open gallery</string>
     <string name="record_video">Record Video</string>
     <string name="take_photo">Take photo</string>

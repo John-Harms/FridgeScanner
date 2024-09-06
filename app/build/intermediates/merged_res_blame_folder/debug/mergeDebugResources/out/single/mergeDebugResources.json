@@ -1,82 +1,122 @@
 [
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/drawable/ic_launcher_background.xml"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/drawable_placeholder_image.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/drawable/placeholder_image.xml"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/xml_data_extraction_rules.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/drawable_placeholder_image.xml.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/drawable/placeholder_image.xml"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/xml_data_extraction_rules.xml.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/xml/data_extraction_rules.xml"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/anim_slide_in_right.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/anim/slide_in_right.xml"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/drawable_border.xml.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/drawable/border.xml"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/drawable_border2.xml.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/drawable/border2.xml"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/anim_slide_out_left.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/anim/slide_out_left.xml"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/layout_activity_main.xml.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/layout/activity_main.xml"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/drawable_border2.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/drawable/border2.xml"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/xml_backup_rules.xml.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/xml/backup_rules.xml"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/xml_backup_rules.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.ahmed_apps.camerax_app-debug-67:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.ahmed_apps.camerax_app-main-69:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/anim_slide_out_right.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/drawable_border.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/drawable/border.xml"
+    },
+    {
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/layout_activity_main.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/layout_activity_main_2.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/layout/activity_main_2.xml"
+    },
+    {
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/anim_slide_in_left.xml.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.johnharms.fridgescanner.app-debug-68:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.johnharms.fridgescanner.app-main-70:/mipmap-hdpi/ic_launcher_foreground.webp"
     }
 ]

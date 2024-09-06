@@ -736,7 +736,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
         public VersionAccessors(ProviderFactory providers, DefaultVersionCatalog config) { super(providers, config); }
 
             /**
-             * Returns the version associated to this alias: activityCompose (1.8.2)
+             * Returns the version associated to this alias: activityCompose (1.9.2)
              * If the version is a rich version and that its not expressible as a
              * single version string, then an empty string is returned.
              * This version was declared in catalog libs.versions.toml
@@ -744,7 +744,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
             public Provider<String> getActivityCompose() { return getVersion("activityCompose"); }
 
             /**
-             * Returns the version associated to this alias: agp (8.3.0)
+             * Returns the version associated to this alias: agp (8.3.2)
              * If the version is a rich version and that its not expressible as a
              * single version string, then an empty string is returned.
              * This version was declared in catalog libs.versions.toml
@@ -752,7 +752,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
             public Provider<String> getAgp() { return getVersion("agp"); }
 
             /**
-             * Returns the version associated to this alias: cameraxVersion (1.3.2)
+             * Returns the version associated to this alias: cameraxVersion (1.3.4)
              * If the version is a rich version and that its not expressible as a
              * single version string, then an empty string is returned.
              * This version was declared in catalog libs.versions.toml
@@ -760,7 +760,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
             public Provider<String> getCameraxVersion() { return getVersion("cameraxVersion"); }
 
             /**
-             * Returns the version associated to this alias: composeBom (2024.03.00)
+             * Returns the version associated to this alias: composeBom (2024.09.00)
              * If the version is a rich version and that its not expressible as a
              * single version string, then an empty string is returned.
              * This version was declared in catalog libs.versions.toml
@@ -784,7 +784,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
             public Provider<String> getConverterGson() { return getVersion("converterGson"); }
 
             /**
-             * Returns the version associated to this alias: coreKtx (1.12.0)
+             * Returns the version associated to this alias: coreKtx (1.13.1)
              * If the version is a rich version and that its not expressible as a
              * single version string, then an empty string is returned.
              * This version was declared in catalog libs.versions.toml
@@ -816,7 +816,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
             public Provider<String> getDaggerHiltCompiler() { return getVersion("daggerHiltCompiler"); }
 
             /**
-             * Returns the version associated to this alias: espressoCore (3.5.1)
+             * Returns the version associated to this alias: espressoCore (3.6.1)
              * If the version is a rich version and that its not expressible as a
              * single version string, then an empty string is returned.
              * This version was declared in catalog libs.versions.toml
@@ -840,7 +840,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
             public Provider<String> getJunit() { return getVersion("junit"); }
 
             /**
-             * Returns the version associated to this alias: junitVersion (1.1.5)
+             * Returns the version associated to this alias: junitVersion (1.2.1)
              * If the version is a rich version and that its not expressible as a
              * single version string, then an empty string is returned.
              * This version was declared in catalog libs.versions.toml
@@ -856,7 +856,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
             public Provider<String> getKotlin() { return getVersion("kotlin"); }
 
             /**
-             * Returns the version associated to this alias: lifecycleRuntimeKtx (2.7.0)
+             * Returns the version associated to this alias: lifecycleRuntimeKtx (2.8.5)
              * If the version is a rich version and that its not expressible as a
              * single version string, then an empty string is returned.
              * This version was declared in catalog libs.versions.toml
@@ -864,7 +864,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
             public Provider<String> getLifecycleRuntimeKtx() { return getVersion("lifecycleRuntimeKtx"); }
 
             /**
-             * Returns the version associated to this alias: materialIconsExtended (1.6.3)
+             * Returns the version associated to this alias: materialIconsExtended (1.7.0)
              * If the version is a rich version and that its not expressible as a
              * single version string, then an empty string is returned.
              * This version was declared in catalog libs.versions.toml

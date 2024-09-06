@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.ahmed_apps.camerax_app-mergeDebugResources-65:/values-gu/values-gu.xml",
+            "outputFile": "com.johnharms.fridgescanner.app-mergeDebugResources-66:/values-gu/values-gu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\21abb63cf41b3c2773a13d0b308d4f5d\\transformed\\ui-release\\res\\values-gu\\values-gu.xml",
+                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\d2a4e061786add383c4d74309adf27ac\\transformed\\foundation-release\\res\\values-gu\\values-gu.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,140",
+                        "endColumns": "84,84",
+                        "endOffsets": "135,220"
+                    },
+                    "to": {
+                        "startLines": "113,114",
+                        "startColumns": "4,4",
+                        "startOffsets": "11463,11548",
+                        "endColumns": "84,84",
+                        "endOffsets": "11543,11628"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\8a971e970ea6cbb019fd571da1f3bb83\\transformed\\ui-release\\res\\values-gu\\values-gu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\9264ea56bf5eecb056c87b5e5bf3b9ce\\transformed\\material3-release\\res\\values-gu\\values-gu.xml",
+                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\99a66eadaa53a2abf54aef0af935199f\\transformed\\material3-release\\res\\values-gu\\values-gu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\178f78b7caf9b5d890b782ad0a57764f\\transformed\\appcompat-1.2.0\\res\\values-gu\\values-gu.xml",
+                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\74bc1fb06c4d5ed4b72066c523aa35c7\\transformed\\appcompat-1.7.0\\res\\values-gu\\values-gu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\831aca37c1419f35df212eb9a81edbe8\\transformed\\core-1.13.1\\res\\values-gu\\values-gu.xml",
+                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\7ba73c65765a05cbbcbc18d12c4b3ac9\\transformed\\core-1.13.1\\res\\values-gu\\values-gu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -69,23 +86,6 @@
                         "startOffsets": "2788,2882,2985,3082,3184,3286,3384,11104",
                         "endColumns": "93,102,96,101,101,97,121,100",
                         "endOffsets": "2877,2980,3077,3179,3281,3379,3501,11200"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\a4c2ef83d3a54a3f54ca07b5dc4f6f9b\\transformed\\foundation-release\\res\\values-gu\\values-gu.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,140",
-                        "endColumns": "84,84",
-                        "endOffsets": "135,220"
-                    },
-                    "to": {
-                        "startLines": "113,114",
-                        "startColumns": "4,4",
-                        "startOffsets": "11463,11548",
-                        "endColumns": "84,84",
-                        "endOffsets": "11543,11628"
                     }
                 }
             ]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ahmed_apps.camerax_app"
+    package="com.johnharms.fridgescanner"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -23,13 +23,13 @@
     </queries>
 
     <permission
-        android:name="com.ahmed_apps.camerax_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.johnharms.fridgescanner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.ahmed_apps.camerax_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.johnharms.fridgescanner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
-        android:name="com.ahmed_apps.camerax_app.App"
+        android:name="com.johnharms.fridgescanner.App"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -41,18 +41,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.CameraXApp" >
+        android:theme="@style/Theme.fridgescanner" >
         <activity
-            android:name="com.ahmed_apps.camerax_app.MainActivity"
+            android:name="com.johnharms.fridgescanner.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.CameraXApp" >
+            android:theme="@style/Theme.fridgescanner" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.johnharms.fridgescanner.MainActivity2"
+            android:theme="@style/Theme.fridgescanner" />
 
         <uses-library
             android:name="androidx.camera.extensions.impl"
@@ -76,13 +79,13 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.ahmed_apps.camerax_app.androidx-startup"
+            android:authorities="com.johnharms.fridgescanner.androidx-startup"
             android:exported="false" >
             <meta-data
-                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
             <meta-data
-                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
                 android:value="androidx.startup" />
             <meta-data
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
