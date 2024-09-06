@@ -83,5 +83,11 @@ dependencies {
     kapt(libs.dagger.hilt.compiler)
     kapt(libs.dagger.hilt.androidx)
     implementation(libs.dagger.hilt.navigation.compose)
+
+    //Internet & JSON Dependencies
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+    implementation (libs.gson)
+
 }
 
