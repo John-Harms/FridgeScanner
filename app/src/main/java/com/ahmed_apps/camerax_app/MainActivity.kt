@@ -8,6 +8,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -29,9 +30,18 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //Checks for permissions on startup
+        if (!arePermissionsGranted()) {
+            ActivityCompat.requestPermissions(
+                this, PERMISSIONS, 100
+            )
+        }
+
+        //Values for imageview and image taken by cameraApi
         val imageView = findViewById<ImageView>(R.id.imageView)
         val imageUriString = intent.getStringExtra("IMAGE_URI")
 
+        //Logic that displays available photo
         if (imageUriString != null) {
             val imageUri = Uri.parse(imageUriString)
             imageUri?.let {
@@ -43,30 +53,26 @@ class MainActivity : ComponentActivity() {
             imageView.setImageResource(R.drawable.placeholder_image)
         }
 
-
-
-
-
+        //Code that handles opening camera and managing permissions when button clicked
         val openCameraButton: Button = findViewById(R.id.camerabutton)
 
         openCameraButton.setOnClickListener {
 
-            if (!arePermissionsGranted()) {
-                ActivityCompat.requestPermissions(
-                    this, CAMERA_PERMISSION, 100
-                )
-            }
-
-            setContent {
-                CameraXAppTheme {
-                    CameraScreen(this)
+            if (arePermissionsGranted()) {
+                setContent {
+                    CameraXAppTheme {
+                        CameraScreen(this)
+                    }
                 }
+            } else {
+                Toast.makeText(applicationContext, "NO PERMISSIONS!", Toast.LENGTH_SHORT).show()
             }
         }
     }
 
+    //Handles checking for camera and internet permissions
     fun arePermissionsGranted(): Boolean {
-        return CAMERA_PERMISSION.all { perssion ->
+        return PERMISSIONS.all { perssion ->
             ContextCompat.checkSelfPermission(
                 applicationContext,
                 perssion
@@ -75,9 +81,10 @@ class MainActivity : ComponentActivity() {
     }
 
     companion object {
-        val CAMERA_PERMISSION = arrayOf(
+        val PERMISSIONS = arrayOf(
             Manifest.permission.CAMERA,
-            Manifest.permission.RECORD_AUDIO
+            Manifest.permission.RECORD_AUDIO,
+            Manifest.permission.INTERNET
         )
     }
 

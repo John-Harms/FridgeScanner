@@ -8,10 +8,10 @@ public final class MainActivity extends androidx.activity.ComponentActivity {
     @org.jetbrains.annotations.NotNull
     public static final com.ahmed_apps.camerax_app.MainActivity.Companion Companion = null;
     @org.jetbrains.annotations.NotNull
-    private static final java.lang.String[] CAMERA_PERMISSION = {"android.permission.CAMERA", "android.permission.RECORD_AUDIO"};
+    private static final java.lang.String[] PERMISSIONS = {"android.permission.CAMERA", "android.permission.RECORD_AUDIO", "android.permission.INTERNET"};
     
     public MainActivity() {
-        super();
+        super(0);
     }
     
     @java.lang.Override
@@ -23,7 +23,7 @@ public final class MainActivity extends androidx.activity.ComponentActivity {
         return false;
     }
     
-    @kotlin.Metadata(mv = {1, 8, 0}, k = 1, d1 = {"\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u0011\n\u0002\u0010\u000e\n\u0002\b\u0004\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002R\u0019\u0010\u0003\u001a\b\u0012\u0004\u0012\u00020\u00050\u0004\u00a2\u0006\n\n\u0002\u0010\b\u001a\u0004\b\u0006\u0010\u0007\u00a8\u0006\t"}, d2 = {"Lcom/ahmed_apps/camerax_app/MainActivity$Companion;", "", "()V", "CAMERA_PERMISSION", "", "", "getCAMERA_PERMISSION", "()[Ljava/lang/String;", "[Ljava/lang/String;", "app_debug"})
+    @kotlin.Metadata(mv = {1, 8, 0}, k = 1, d1 = {"\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u0011\n\u0002\u0010\u000e\n\u0002\b\u0004\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002R\u0019\u0010\u0003\u001a\b\u0012\u0004\u0012\u00020\u00050\u0004\u00a2\u0006\n\n\u0002\u0010\b\u001a\u0004\b\u0006\u0010\u0007\u00a8\u0006\t"}, d2 = {"Lcom/ahmed_apps/camerax_app/MainActivity$Companion;", "", "()V", "PERMISSIONS", "", "", "getPERMISSIONS", "()[Ljava/lang/String;", "[Ljava/lang/String;", "app_debug"})
     public static final class Companion {
         
         private Companion() {
@@ -31,7 +31,7 @@ public final class MainActivity extends androidx.activity.ComponentActivity {
         }
         
         @org.jetbrains.annotations.NotNull
-        public final java.lang.String[] getCAMERA_PERMISSION() {
+        public final java.lang.String[] getPERMISSIONS() {
             return null;
         }
     }

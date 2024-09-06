@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.ahmed_apps.camerax_app-mergeDebugResources-63:/values-v24/values-v24.xml",
+            "outputFile": "com.ahmed_apps.camerax_app-mergeDebugResources-65:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\5e517a8b64d77ec86b6a80f1c524c362\\transformed\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\178f78b7caf9b5d890b782ad0a57764f\\transformed\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
