@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.johnharms.fridgescanner.test.app-mergeDebugAndroidTestResources-34:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\spycy\\.gradle\\caches\\transforms-3\\be29e10e9bc1a60b8acba9c9cd8c505f\\transformed\\core-1.6.1\\res\\values-v18\\values.xml",
+                    "from": {
+                        "startLines": "4,12",
+                        "startColumns": "0,0",
+                        "startOffsets": "146,562",
+                        "endLines": "11,19",
+                        "endColumns": "8,8",
+                        "endOffsets": "561,975"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,475",
+                        "endLines": "9,17",
+                        "endColumns": "8,8",
+                        "endOffsets": "470,888"
+                    }
+                }
+            ]
+        }
+    ]
+}

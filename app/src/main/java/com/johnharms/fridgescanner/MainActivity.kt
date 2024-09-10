@@ -65,7 +65,7 @@ class MainActivity : ComponentActivity() {
 
 
 
-        val apiKey = "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"
+        val apiKey = "INSERT API KEY HERE"
 
 
         //Values for imageview and image taken by cameraApi
